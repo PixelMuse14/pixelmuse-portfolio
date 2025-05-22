@@ -1,0 +1,112 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  line-height: 1.6;
+  color: #2f184d;
+  background: color #ebeaf6;;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #2f184d, #602e9e);
+  color: #ebeaf6;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+/* About Section */
+.about {
+  background-color: #ebeaf6;
+  padding: 4rem 0;
+}
+
+.about h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Projects Section */
+.projects {
+  padding: 4rem 0;
+}
+
+.projects h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.project-card {
+  background-color: #ebeaf6;
+  border: 1px solid #2f184d;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  padding: 1rem;
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #2f184d;
+  margin-bottom: 1rem;
+}
+
+.project-card h3 {
+  margin-bottom: 0.5rem;
+}
+
+.project-card p {
+  font-size: 0.9rem;
+  color: #ebeaf6;
+}
+
+/* Contact Section */
+.contact {
+  background-color: #ebeaf6;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.contact h2 {
+  margin-bottom: 1rem;
+}
+
+.contact p {
+  margin-bottom: 0.5rem;
+}
+
+/* Footer */
+footer {
+  background-color: #2f184d;
+  color: #ebeaf6;
+  text-align: center;
+  padding: 2rem 0;
+}
